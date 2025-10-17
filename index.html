@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Happy Diwali — For jann Saniya ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --accent: #ce1156;
+    --gold: #ffd166;
+    --heart1: #ff092e;
+    --heart2: #ffd3b6;
+    --heart3: #ffbfdc;
+  }
+  *{box-sizing:border-box}
+  body{
+  margin:0;
+  min-height:150vh;
+  font-family:"Poppins",sans-serif;
+  color:#fff;
+  overflow-x:hidden;
+
+  /* Animated romantic gradient background */
+  background: linear-gradient(270deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee, #84fab0, #ffd1dc);
+  background-size: 1000% 1000%;
+  animation: gradientBG 30s ease infinite;
+}
+
+/* Gradient animation */
+@keyframes gradientBG {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+
+  .card { max-width:980px; margin:24px auto; position:relative; border-radius:18px; overflow:hidden; box-shadow: 0 20px 60px rgba(30, 30, 90, 0.6); background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02)); backdrop-filter: blur(6px); }
+  .stage{ min-height:72vh; padding:28px; display:flex; align-items:center; justify-content:center; position:relative; }
+
+  header{ text-align:center; padding:18px; background: linear-gradient(90deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02)); }
+  header h1{ margin:0; font-family:'Great Vibes', cursive; font-size:36px; color:var(--accent); text-shadow: 0 6px 24px rgba(255,111,163,0.2); }
+  header p{margin:6px 0 0 0; font-size:13px; color:#ff6fa3;}
+
+  .nav-buttons{ position: absolute; right: 18px; top: 18px; display:flex; gap:8px; }
+  .btn{ background:linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.01)); color:white; border:1px solid rgba(255,255,255,0.06); padding:10px 14px; border-radius:12px; cursor:pointer; font-weight:600; box-shadow: 0 6px 18px rgba(0,0,0,0.4); transition:transform .18s ease, box-shadow .18s; }
+  .btn:active{ transform: translateY(2px) }
+  .btn.primary{ background: linear-gradient(90deg,var(--accent), #e842a6); color: #120017; border: none; }
+
+  .scene{ position:absolute; inset:0; padding:28px; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:18px; transition: transform .7s cubic-bezier(.16,.9,.36,1), opacity .5s ease; will-change:transform, opacity; }
+  .hidden{ opacity:0; pointer-events:none; transform: translateY(40px) scale(.98); }
+
+  .photo-wrap{ display:flex; gap:18px; align-items:center; flex-direction:column; }
+  .round-photo{ width:230px; height:230px; border-radius:50%; overflow:hidden; border:6px solid rgba(255,255,255,0.14); box-shadow: 0 30px 60px rgba(0,0,0,0.4), 0 0 30px rgba(206, 29, 218, 0.628); background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255, 0, 102, 0.621)); display:grid; place-items:center; transform-origin:center; animation:heartPulse 3.6s infinite; }
+  .round-photo img{ width:100%; height:100%; object-fit:cover; object-position: left center; display:block; background:#050505; }
+  @keyframes heartPulse{0%{ transform: scale(1) }50%{ transform: scale(1.03) rotate(-0.5deg) }100%{ transform: scale(1) }}
+
+  .greeting{ max-width:680px; text-align:center; font-size:16px; line-height:1.7; color:#a91381; text-shadow: 0 6px 14px rgba(255,255,255,0.6); }
+  .greeting .heart{ color:var(--gold); font-weight:700; text-shadow:none; }
+
+  .scene2 { display:flex; flex-direction:column; align-items:center; gap:20px; padding-top:12px; }
+  .cartoon-stage{ position:relative; width:760px; max-width:95%; height:360px; border-radius:14px; overflow:hidden; background: linear-gradient(180deg,#ffd3b6 0%, #ffb6c1 60%, #ff9fc3 100%); box-shadow: 0 18px 40px rgba(3,8,18,0.4); border:1px solid rgba(255,255,255,0.03); }
+  .ground{ position:absolute; bottom:0; left:0; right:0; height:90px; background: linear-gradient(180deg,#ffe4e1,#ffb6c1); box-shadow: inset 0 6px 24px rgba(0,0,0,0.2); }
+
+  .couple{ position:absolute; left:50%; bottom:32px; transform:translateX(-50%); display:flex; gap:24px; align-items:flex-end; z-index:30; filter: drop-shadow(0 10px 24px rgba(0,0,0,0.3)); }
+  .person{ width:130px; height:220px; position:relative; }
+  .person .head{ width:46px;height:46px;border-radius:50%; background:#0b0b11; position:absolute; left:12px; top:8px; box-shadow: 0 0 22px rgba(255,111,163,0.06), inset -6px -6px 12px rgba(255,255,255,0.02); }
+  .person .body{ position:absolute; left:0; right:0; top:50px; height:160px; background: linear-gradient(180deg,#120418,#0b0b11); border-radius: 24px 24px 18px 18px; transform-origin:bottom center; animation: sway 3s infinite ease-in-out; }
+  .girl .body{ border-radius: 40px 24px 10px 10px; background: linear-gradient(180deg,#8006ec,#ff66b3); width:120px; margin-left:10px; }
+  .boy .body{ width:110px; margin-right:8px; background: linear-gradient(180deg,#0b3a5a,#66ccff); }
+  @keyframes sway{0%{ transform: rotate(0deg) }50%{ transform: rotate(1.2deg) }100%{ transform: rotate(0deg) }}
+
+  .spark{ position:absolute; width:6px; height:6px; border-radius:50%; background:var(--gold); opacity:0; transform-origin:center; filter: blur(.6px); }
+
+  .shayari{ width:92%; max-width:780px; min-height:100px; padding:14px 18px; border-radius:12px; background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02)); border:1px solid rgba(255,255,255,0.04); font-size:18px; color:#120017; text-align:center; line-height:1.6; font-weight:500; box-shadow: 0 10px 30px rgba(3,6,14,0.2); }
+  .shayari .line{ opacity:0; transform: translateY(8px); display:block; }
+
+  .video-area{ width:90%; max-width:720px; height:260px; border-radius:12px; overflow:hidden; background:#000; margin-top:8px; border: 6px solid rgba(255,255,255,0.02); box-shadow: 0 12px 34px rgba(0,0,0,0.3); display:none; }
+  .video-area video{ width:100%; height:100%; display:block; object-fit:cover; }
+
+  .final-msg{ display:flex; flex-direction:column; align-items:center; gap:12px; padding:18px; }
+  .final-msg h2{ font-family:'Great Vibes', cursive; font-size:56px; color:var(--accent); margin:0; text-shadow: 0 10px 30px rgba(255,111,163,0.2); transform:scale(.95); animation:pop 900ms ease forwards; }
+  @keyframes pop{ to{ transform:scale(1); } }
+  .from{ margin-top:6px; font-size:18px; color:#7e0833; }
+
+  footer.small{ text-align:center; padding:10px 12px; color:#ff6fa3; font-size:13px; }
+
+  @media (max-width:720px){ .cartoon-stage{ height:320px; } .round-photo{ width:170px; height:170px;} .greeting{ font-size:15px;} .shayari{ font-size:16px; } }
+
+  /* Floating hearts animation */
+  .floating-heart{ position:absolute; width:18px; height:18px; transform:rotate(45deg); border-radius:3px; opacity:0.9; animation:floatUp linear infinite; }
+  @keyframes floatUp{0%{transform:translateY(0) rotate(45deg)}100%{transform:translateY(-600px) rotate(45deg)}}
+
+  /* Sparkling lights background */
+  .light{ position:absolute; width:4px; height:4px; border-radius:50%; background:rgba(255,255,200,0.9); animation:twinkle linear infinite; }
+  @keyframes twinkle{0%,100%{opacity:0}50%{opacity:1}}
+</style>
+</head>
+<body>
+
+<div class="card" role="main" aria-live="polite">
+  <header>
+    <h1>Happy Diwali, My Love✨</h1>
+    <p>For Saniya — made with all my love😙❤️</p>
+
+    <div class="nav-buttons" aria-hidden="false">
+      <button class="btn" id="btnPrev">Prev</button>
+      <button class="btn primary" id="btnNext">Next</button>
+    </div>
+  </header>
+
+  <section class="stage">
+
+    <!-- Scene 1: Greeting -->
+    <div id="scene1" class="scene">
+      <div class="photo-wrap">
+        <div class="round-photo" title="Our Photo">
+          <img id="profilePhoto" src="WhatsApp Image 2025-10-17 at 5.34.39 PM.jpeg" alt="Photo of us" style="transform: translate(-5px);">
+        </div>
+
+        <div class="greeting">
+          <p style="font-size:18px; margin:0 0 6px 0"><span style="font-family:'Great Vibes',cursive; font-size:30px; color:var(--accent)">Saniya</span>, तुम मेरी जिंदगी हो 🌟</p>
+          <p>इस दीवाली पर हर दीया तुम्हारे लिए जलता है — ओर मे तुम्हे हमेशा याद करता हु। </p>
+        </div>
+
+        <div style="display:flex; gap:10px; margin-top:6px;">
+          <button class="btn primary" id="toScene2">Open Our Story</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 2: Cartoon + Shayari + Video -->
+    <div id="scene2" class="scene hidden">
+      <div class="scene2">
+        <div class="cartoon-stage" id="cartoon">
+          <div class="ground"></div>
+          <div class="couple" aria-hidden="true">
+            <div class="person girl">
+              <div class="head"></div>
+              <div class="body"></div>
+            </div>
+            <div class="person boy">
+              <div class="head"></div>
+              <div class="body"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="shayari" id="shayariBox" aria-live="polite">
+          <span class="line"><strong>मैं तुमसे बहुत प्यार करता हूँ, मेरी प्यारी Jann Saniya jii💕💕</strong></span>
+           <span class="line">चमकीली रातों में तेरी हँसी की रौशनी है,</span>
+          <span class="line">दीपों की लौ से भी तेरी आँखों में नमी है,</span>
+          <span class="line">हाथों में तेरे हाथ होने से हर अँधेरा कट जाता है,</span>
+          <span class="line">तेरे साथ हर रंग यहाँ और भी खूबसूरत बन जाता है,</span>
+          <span class="line">मेरी हर दुआ में तू ही रहे बस — आज, कल और सदा.</span>
+         
+        </div>
+
+        <div style="display:flex;gap:12px;align-items:center;">
+          <button class="btn primary" id="showVideo">Play Romantic Clip</button>
+          <button class="btn" id="sparkleBtn">Burst Fireworks</button>
+        </div>
+
+        <div class="video-area" id="videoArea" aria-hidden="true">
+          <video id="romVideo" loop muted>
+            <source src="152500-803144013_small.mp4" type="video/mp4">
+            Your browser does not support video.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 3: Final Message -->
+    <div id="scene3" class="scene hidden">
+      <div class="final-msg">
+        <h2>I love you Wify ❤️</h2>
+        <p class="from">— by your love, <strong>Rajpal😙😙</strong></p>
+        <p style="max-width:760px; text-align:center; color:#ea0e0e;">
+          तुम्हारी हर खुशी मेरी दुआ है। इस दीवाली पर, तेरे संग बिताया हर लम्हा मेरे लिए अनमोल है।  
+          चलो हर साल इसी तरह साथ जश्न मनाएँ। ✨
+          I LOVE YOU SANIYA jii💕💕
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="small">
+   <code></code>  <code></code>  <code>&lt;&gt;</code>  <code>&lt;&gt;</code>.
+  </footer>
+</div>
+
+<!-- Background music (auto-play on first interaction) -->
+<audio id="bgMusic" loop>
+  <source src="romantic_ringtone.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  // Scene navigation
+  const s1 = document.getElementById('scene1');
+  const s2 = document.getElementById('scene2');
+  const s3 = document.getElementById('scene3');
+  const btnNext = document.getElementById('btnNext');
+  const btnPrev = document.getElementById('btnPrev');
+  const toScene2 = document.getElementById('toScene2');
+  const bgMusic = document.getElementById('bgMusic');
+
+  let current = 1;
+  function showScene(n){
+    [s1,s2,s3].forEach((el,i)=> {
+      if(i+1 === n){ el.classList.remove('hidden'); el.style.zIndex = 10; }
+      else { el.classList.add('hidden'); el.style.zIndex = 1; }
+    });
+    current = n;
+  }
+
+  btnNext.addEventListener('click', ()=> {
+    if(current === 1) showScene(2);
+    else if(current === 2) showScene(3);
+    else showScene(1);
+  });
+  btnPrev.addEventListener('click', ()=> {
+    if(current === 1) showScene(3);
+    else if(current === 2) showScene(1);
+    else showScene(2);
+  });
+  toScene2.addEventListener('click', ()=> showScene(2));
+
+  // Auto-play music on first interaction
+  let musicStarted = false;
+  function startMusic() {
+    if(!musicStarted){
+      bgMusic.play().catch(err=>console.log("Autoplay blocked, will play after click"));
+      musicStarted = true;
+    }
+  }
+  document.addEventListener('click', startMusic, {once:true});
+
+  // Shayari reveal animation
+  const lines = document.querySelectorAll('#shayariBox .line');
+  function revealShayari(){
+    lines.forEach((ln, idx) => {
+      setTimeout(()=> {
+        ln.style.opacity = '1';
+        ln.style.transform = 'translateY(0)';
+        ln.style.transition = 'all .7s cubic-bezier(.2,.9,.3,1)';
+      }, 900 + idx * 1200);
+    });
+  }
+
+  // Cartoon fireworks
+  const cartoon = document.getElementById('cartoon');
+  function burst(x, y, color){
+    for(let i=0;i<22;i++){
+      const sp = document.createElement('div');
+      sp.className = 'spark';
+      sp.style.left = (x + (Math.random()*120 - 60)) + 'px';
+      sp.style.top = (y + (Math.random()*120 - 60)) + 'px';
+      sp.style.background = color || `hsl(${Math.floor(Math.random()*360)},80%,60%)`;
+      cartoon.appendChild(sp);
+      const dx = (Math.random() - 0.5) * 320;
+      const dy = (Math.random() - 0.5) * 320 - 60;
+      sp.animate([{ transform: 'translate(0,0) scale(1)', opacity: 1 },{ transform: `translate(${dx}px, ${dy}px) scale(0.4)`, opacity: 0 }], { duration: 900 + Math.random()*900, easing: 'cubic-bezier(.2,.8,.2,1)' });
+      setTimeout(()=> sp.remove(), 2200);
+    }
+  }
+
+  let autoFire = setInterval(()=> {
+    const x = 120 + Math.random() * (cartoon.clientWidth - 240);
+    const y = 60 + Math.random() * (cartoon.clientHeight / 2);
+    burst(x, y);
+  }, 2400);
+
+  document.getElementById('sparkleBtn').addEventListener('click', ()=> {
+    for(let i=0;i<4;i++){
+      setTimeout(()=> {
+        const x = 80 + Math.random() * (cartoon.clientWidth - 160);
+        const y = 40 + Math.random() * (cartoon.clientHeight / 2);
+        burst(x, y, ['#ffd166','#ff6fa3','#ffd3b6','#9be7ff'][Math.floor(Math.random()*4)]);
+      }, i * 220);
+    }
+  });
+
+  const showVideoBtn = document.getElementById('showVideo');
+  const videoArea = document.getElementById('videoArea');
+  const romVideo = document.getElementById('romVideo');
+
+  showVideoBtn.addEventListener('click', ()=> {
+    if(videoArea.style.display === 'block'){
+      if(romVideo.paused) romVideo.play();
+      else romVideo.pause();
+    } else {
+      videoArea.style.display = 'block';
+      romVideo.muted = false;
+      romVideo.play();
+    }
+  });
+
+  const obsOptions = { root: null, threshold: 0.5 };
+  const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting && entry.target.id === 'scene2'){ revealShayari(); }
+      if(entry.isIntersecting && entry.target.id === 'scene3'){
+        for(let i=0;i<6;i++){
+          setTimeout(()=> {
+            const x = 80 + Math.random() * (cartoon.clientWidth - 160);
+            const y = 40 + Math.random() * (cartoon.clientHeight / 2);
+            burst(x, y, ['#ffd166','#ff6fa3','#9be7ff'][Math.floor(Math.random()*3)]);
+          }, i * 180);
+        }
+      }
+    });
+  }, obsOptions);
+  observer.observe(s2);
+  observer.observe(s3);
+
+  document.addEventListener('keydown', (e)=>{ if(e.key === 'ArrowRight') btnNext.click(); if(e.key === 'ArrowLeft') btnPrev.click(); });
+
+  showScene(1);
+
+  const photo = document.getElementById('profilePhoto');
+  photo.onerror = () => {
+    photo.src = 'data:image/svg+xml;charset=utf8,' + encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='500' height='500'><rect width='100%' height='100%' fill='#ffd3b6'/><text x='50%' y='50%' alignment-baseline='middle' text-anchor='middle' fill='#ff6fa3' font-size='34' font-family='Poppins, sans-serif'>Add your photo </text></svg>`);
+  };
+
+  // Floating hearts
+  function createFloatingHearts(){
+    for(let i=0;i<12;i++){
+      const h = document.createElement('div');
+      h.className='floating-heart';
+      h.style.background = ['#ff6fa3','#ffbfdc','#ffd4e8'][Math.floor(Math.random()*3)];
+      h.style.left = (10 + Math.random()*80) + '%';
+      h.style.bottom = (-20 - Math.random()*40) + 'px';
+      h.style.animationDuration = (7 + Math.random()*4) + 's';
+      h.style.animationDelay = (Math.random()*3)+'s';
+      document.body.appendChild(h);
+    }
+  }
+  createFloatingHearts();
+
+  // Background twinkle lights
+  for(let i=0;i<40;i++){
+    const l = document.createElement('div');
+    l.className='light';
+    l.style.left = Math.random()*100 + '%';
+    l.style.top = Math.random()*100 + '%';
+    l.style.animationDuration = (1 + Math.random()*2)+'s';
+    document.body.appendChild(l);
+  }
+
+  window.addEventListener('beforeunload', ()=> clearInterval(autoFire));
+</script>
+</body>
+</html>
